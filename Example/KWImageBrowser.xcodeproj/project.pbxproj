@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29B6EE6255D109F00195154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B6EE5255D109F00195154 /* AppDelegate.swift */; };
+		A29B6EEA255D109F00195154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B6EE9255D109F00195154 /* ViewController.swift */; };
+		A29B6EED255D109F00195154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29B6EEB255D109F00195154 /* Main.storyboard */; };
+		A29B6EEF255D10A100195154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29B6EEE255D10A100195154 /* Assets.xcassets */; };
+		A29B6EF2255D10A100195154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29B6EF0255D10A100195154 /* LaunchScreen.storyboard */; };
+		A2F08ECF256F84F2002CA83B /* KWImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EB4256F84F1002CA83B /* KWImageBrowser.swift */; };
+		A2F08ED0256F84F2002CA83B /* KWIBImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EB6256F84F1002CA83B /* KWIBImageScrollView.swift */; };
+		A2F08ED1256F84F2002CA83B /* KWIBImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EB7256F84F1002CA83B /* KWIBImageCell.swift */; };
+		A2F08ED2256F84F2002CA83B /* KWIBImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EB8256F84F1002CA83B /* KWIBImageData.swift */; };
+		A2F08ED3256F84F2002CA83B /* KWIBImageLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EB9256F84F1002CA83B /* KWIBImageLayout.swift */; };
+		A2F08ED4256F84F2002CA83B /* KWImageBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2F08EBB256F84F2002CA83B /* KWImageBrowser.bundle */; };
+		A2F08ED5256F84F2002CA83B /* KWIBUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EBD256F84F2002CA83B /* KWIBUtilities.swift */; };
+		A2F08ED6256F84F2002CA83B /* UIImage+KWImageBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EBE256F84F2002CA83B /* UIImage+KWImageBrowser.swift */; };
+		A2F08ED7256F84F2002CA83B /* KWIBInteractionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC0256F84F2002CA83B /* KWIBInteractionConfig.swift */; };
+		A2F08ED8256F84F2002CA83B /* KWIBBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC1256F84F2002CA83B /* KWIBBaseCollectionCell.swift */; };
+		A2F08ED9256F84F2002CA83B /* KWIBDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC2256F84F2002CA83B /* KWIBDataProtocol.swift */; };
+		A2F08EDA256F84F2002CA83B /* KWIBContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC3256F84F2002CA83B /* KWIBContainerView.swift */; };
+		A2F08EDB256F84F2002CA83B /* KWIBScreenRotationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC4256F84F2002CA83B /* KWIBScreenRotationObserver.swift */; };
+		A2F08EDC256F84F2002CA83B /* KWIBDefaultTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC5256F84F2002CA83B /* KWIBDefaultTransition.swift */; };
+		A2F08EDD256F84F2002CA83B /* KWIBCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC6256F84F2002CA83B /* KWIBCollectionView.swift */; };
+		A2F08EDE256F84F2002CA83B /* KWImageBrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC7256F84F2002CA83B /* KWImageBrowserViewModel.swift */; };
+		A2F08EDF256F84F2002CA83B /* KWImageBrowserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08EC8256F84F2002CA83B /* KWImageBrowserProtocol.swift */; };
+		A2F08EE0256F84F2002CA83B /* KWIBToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08ECA256F84F2002CA83B /* KWIBToastView.swift */; };
+		A2F08EE1256F84F2002CA83B /* KWIBTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08ECB256F84F2002CA83B /* KWIBTopView.swift */; };
+		A2F08EE2256F84F2002CA83B /* KWIBLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08ECC256F84F2002CA83B /* KWIBLoadingView.swift */; };
+		A2F08EE3256F84F2002CA83B /* KWIBDefaultToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08ECD256F84F2002CA83B /* KWIBDefaultToolView.swift */; };
+		A2F08EE4256F84F2002CA83B /* KWIBHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F08ECE256F84F2002CA83B /* KWIBHud.swift */; };
+		AE7F115CBA928F164303C53A /* Pods_KWImageBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF35C2E4F3B3192A7274D218 /* Pods_KWImageBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15497E553E4A5F798D43549A /* Pods-KWImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWImageBrowser.release.xcconfig"; path = "Target Support Files/Pods-KWImageBrowser/Pods-KWImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		43134235923E0C63C27DDB55 /* Pods-KWImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWImageBrowser.debug.xcconfig"; path = "Target Support Files/Pods-KWImageBrowser/Pods-KWImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		A27F0C662564F4390021517A /* KWImageBrowser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KWImageBrowser-Bridging-Header.h"; sourceTree = "<group>"; };
+		A27F0C6B2564F4580021517A /* OCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCHeader.h; sourceTree = "<group>"; };
+		A29B6EE2255D109F00195154 /* KWImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29B6EE5255D109F00195154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A29B6EE9255D109F00195154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A29B6EEC255D109F00195154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A29B6EEE255D10A100195154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A29B6EF1255D10A100195154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A29B6EF3255D10A100195154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F08EB4256F84F1002CA83B /* KWImageBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWImageBrowser.swift; sourceTree = "<group>"; };
+		A2F08EB6256F84F1002CA83B /* KWIBImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBImageScrollView.swift; sourceTree = "<group>"; };
+		A2F08EB7256F84F1002CA83B /* KWIBImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBImageCell.swift; sourceTree = "<group>"; };
+		A2F08EB8256F84F1002CA83B /* KWIBImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBImageData.swift; sourceTree = "<group>"; };
+		A2F08EB9256F84F1002CA83B /* KWIBImageLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBImageLayout.swift; sourceTree = "<group>"; };
+		A2F08EBB256F84F2002CA83B /* KWImageBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KWImageBrowser.bundle; sourceTree = "<group>"; };
+		A2F08EBD256F84F2002CA83B /* KWIBUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBUtilities.swift; sourceTree = "<group>"; };
+		A2F08EBE256F84F2002CA83B /* UIImage+KWImageBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+KWImageBrowser.swift"; sourceTree = "<group>"; };
+		A2F08EC0256F84F2002CA83B /* KWIBInteractionConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBInteractionConfig.swift; sourceTree = "<group>"; };
+		A2F08EC1256F84F2002CA83B /* KWIBBaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBBaseCollectionCell.swift; sourceTree = "<group>"; };
+		A2F08EC2256F84F2002CA83B /* KWIBDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBDataProtocol.swift; sourceTree = "<group>"; };
+		A2F08EC3256F84F2002CA83B /* KWIBContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBContainerView.swift; sourceTree = "<group>"; };
+		A2F08EC4256F84F2002CA83B /* KWIBScreenRotationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBScreenRotationObserver.swift; sourceTree = "<group>"; };
+		A2F08EC5256F84F2002CA83B /* KWIBDefaultTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBDefaultTransition.swift; sourceTree = "<group>"; };
+		A2F08EC6256F84F2002CA83B /* KWIBCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBCollectionView.swift; sourceTree = "<group>"; };
+		A2F08EC7256F84F2002CA83B /* KWImageBrowserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWImageBrowserViewModel.swift; sourceTree = "<group>"; };
+		A2F08EC8256F84F2002CA83B /* KWImageBrowserProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWImageBrowserProtocol.swift; sourceTree = "<group>"; };
+		A2F08ECA256F84F2002CA83B /* KWIBToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBToastView.swift; sourceTree = "<group>"; };
+		A2F08ECB256F84F2002CA83B /* KWIBTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBTopView.swift; sourceTree = "<group>"; };
+		A2F08ECC256F84F2002CA83B /* KWIBLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBLoadingView.swift; sourceTree = "<group>"; };
+		A2F08ECD256F84F2002CA83B /* KWIBDefaultToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBDefaultToolView.swift; sourceTree = "<group>"; };
+		A2F08ECE256F84F2002CA83B /* KWIBHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWIBHud.swift; sourceTree = "<group>"; };
+		CF35C2E4F3B3192A7274D218 /* Pods_KWImageBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWImageBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29B6EDF255D109F00195154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7F115CBA928F164303C53A /* Pods_KWImageBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4984DF9A401FAB9699EA32C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF35C2E4F3B3192A7274D218 /* Pods_KWImageBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A29B6ED9255D109F00195154 = {
+			isa = PBXGroup;
+			children = (
+				A29B6EE4255D109F00195154 /* KWImageBrowser */,
+				A29B6EE3255D109F00195154 /* Products */,
+				BFAF3A870707193113DAC970 /* Pods */,
+				4984DF9A401FAB9699EA32C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A29B6EE3255D109F00195154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29B6EE2255D109F00195154 /* KWImageBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29B6EE4255D109F00195154 /* KWImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08EB3256F84F1002CA83B /* KWImageBrowser */,
+				A29B6EE5255D109F00195154 /* AppDelegate.swift */,
+				A29B6EE9255D109F00195154 /* ViewController.swift */,
+				A29B6EEB255D109F00195154 /* Main.storyboard */,
+				A29B6EEE255D10A100195154 /* Assets.xcassets */,
+				A29B6EF0255D10A100195154 /* LaunchScreen.storyboard */,
+				A29B6EF3255D10A100195154 /* Info.plist */,
+				A27F0C662564F4390021517A /* KWImageBrowser-Bridging-Header.h */,
+				A27F0C6B2564F4580021517A /* OCHeader.h */,
+			);
+			path = KWImageBrowser;
+			sourceTree = "<group>";
+		};
+		A2F08EB3256F84F1002CA83B /* KWImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08EB4256F84F1002CA83B /* KWImageBrowser.swift */,
+				A2F08EB5256F84F1002CA83B /* Image */,
+				A2F08EBA256F84F2002CA83B /* Resource */,
+				A2F08EBC256F84F2002CA83B /* Helper */,
+				A2F08EBF256F84F2002CA83B /* Base */,
+				A2F08EC9256F84F2002CA83B /* Tool */,
+			);
+			name = KWImageBrowser;
+			path = ../../KWImageBrowser;
+			sourceTree = "<group>";
+		};
+		A2F08EB5256F84F1002CA83B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08EB6256F84F1002CA83B /* KWIBImageScrollView.swift */,
+				A2F08EB7256F84F1002CA83B /* KWIBImageCell.swift */,
+				A2F08EB8256F84F1002CA83B /* KWIBImageData.swift */,
+				A2F08EB9256F84F1002CA83B /* KWIBImageLayout.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A2F08EBA256F84F2002CA83B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08EBB256F84F2002CA83B /* KWImageBrowser.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A2F08EBC256F84F2002CA83B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08EBD256F84F2002CA83B /* KWIBUtilities.swift */,
+				A2F08EBE256F84F2002CA83B /* UIImage+KWImageBrowser.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A2F08EBF256F84F2002CA83B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08EC0256F84F2002CA83B /* KWIBInteractionConfig.swift */,
+				A2F08EC1256F84F2002CA83B /* KWIBBaseCollectionCell.swift */,
+				A2F08EC2256F84F2002CA83B /* KWIBDataProtocol.swift */,
+				A2F08EC3256F84F2002CA83B /* KWIBContainerView.swift */,
+				A2F08EC4256F84F2002CA83B /* KWIBScreenRotationObserver.swift */,
+				A2F08EC5256F84F2002CA83B /* KWIBDefaultTransition.swift */,
+				A2F08EC6256F84F2002CA83B /* KWIBCollectionView.swift */,
+				A2F08EC7256F84F2002CA83B /* KWImageBrowserViewModel.swift */,
+				A2F08EC8256F84F2002CA83B /* KWImageBrowserProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A2F08EC9256F84F2002CA83B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A2F08ECA256F84F2002CA83B /* KWIBToastView.swift */,
+				A2F08ECB256F84F2002CA83B /* KWIBTopView.swift */,
+				A2F08ECC256F84F2002CA83B /* KWIBLoadingView.swift */,
+				A2F08ECD256F84F2002CA83B /* KWIBDefaultToolView.swift */,
+				A2F08ECE256F84F2002CA83B /* KWIBHud.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BFAF3A870707193113DAC970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43134235923E0C63C27DDB55 /* Pods-KWImageBrowser.debug.xcconfig */,
+				15497E553E4A5F798D43549A /* Pods-KWImageBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29B6EE1255D109F00195154 /* KWImageBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29B6EF6255D10A100195154 /* Build configuration list for PBXNativeTarget "KWImageBrowser" */;
+			buildPhases = (
+				94E3D8F5824F5C8A90EC3143 /* [CP] Check Pods Manifest.lock */,
+				A29B6EDE255D109F00195154 /* Sources */,
+				A29B6EDF255D109F00195154 /* Frameworks */,
+				A29B6EE0255D109F00195154 /* Resources */,
+				287FCCFB60AA4E93BED30695 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWImageBrowser;
+			productName = KWImageBrowser;
+			productReference = A29B6EE2255D109F00195154 /* KWImageBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29B6EDA255D109F00195154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A29B6EE1255D109F00195154 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = A29B6EDD255D109F00195154 /* Build configuration list for PBXProject "KWImageBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A29B6ED9255D109F00195154;
+			productRefGroup = A29B6EE3255D109F00195154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29B6EE1255D109F00195154 /* KWImageBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29B6EE0255D109F00195154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29B6EF2255D10A100195154 /* LaunchScreen.storyboard in Resources */,
+				A29B6EEF255D10A100195154 /* Assets.xcassets in Resources */,
+				A2F08ED4256F84F2002CA83B /* KWImageBrowser.bundle in Resources */,
+				A29B6EED255D109F00195154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		287FCCFB60AA4E93BED30695 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWImageBrowser/Pods-KWImageBrowser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWImageBrowser/Pods-KWImageBrowser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KWImageBrowser/Pods-KWImageBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E3D8F5824F5C8A90EC3143 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KWImageBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29B6EDE255D109F00195154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F08EE2256F84F2002CA83B /* KWIBLoadingView.swift in Sources */,
+				A2F08ED2256F84F2002CA83B /* KWIBImageData.swift in Sources */,
+				A2F08EDC256F84F2002CA83B /* KWIBDefaultTransition.swift in Sources */,
+				A2F08EDF256F84F2002CA83B /* KWImageBrowserProtocol.swift in Sources */,
+				A2F08EE1256F84F2002CA83B /* KWIBTopView.swift in Sources */,
+				A2F08EE3256F84F2002CA83B /* KWIBDefaultToolView.swift in Sources */,
+				A2F08ED1256F84F2002CA83B /* KWIBImageCell.swift in Sources */,
+				A2F08ED9256F84F2002CA83B /* KWIBDataProtocol.swift in Sources */,
+				A29B6EEA255D109F00195154 /* ViewController.swift in Sources */,
+				A2F08ED8256F84F2002CA83B /* KWIBBaseCollectionCell.swift in Sources */,
+				A2F08EE4256F84F2002CA83B /* KWIBHud.swift in Sources */,
+				A2F08ED3256F84F2002CA83B /* KWIBImageLayout.swift in Sources */,
+				A2F08EDD256F84F2002CA83B /* KWIBCollectionView.swift in Sources */,
+				A2F08EDB256F84F2002CA83B /* KWIBScreenRotationObserver.swift in Sources */,
+				A29B6EE6255D109F00195154 /* AppDelegate.swift in Sources */,
+				A2F08ED0256F84F2002CA83B /* KWIBImageScrollView.swift in Sources */,
+				A2F08ECF256F84F2002CA83B /* KWImageBrowser.swift in Sources */,
+				A2F08EDE256F84F2002CA83B /* KWImageBrowserViewModel.swift in Sources */,
+				A2F08ED7256F84F2002CA83B /* KWIBInteractionConfig.swift in Sources */,
+				A2F08ED6256F84F2002CA83B /* UIImage+KWImageBrowser.swift in Sources */,
+				A2F08ED5256F84F2002CA83B /* KWIBUtilities.swift in Sources */,
+				A2F08EDA256F84F2002CA83B /* KWIBContainerView.swift in Sources */,
+				A2F08EE0256F84F2002CA83B /* KWIBToastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A29B6EEB255D109F00195154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29B6EEC255D109F00195154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A29B6EF0255D10A100195154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29B6EF1255D10A100195154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A29B6EF4255D10A100195154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A29B6EF5255D10A100195154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A29B6EF7255D10A100195154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43134235923E0C63C27DDB55 /* Pods-KWImageBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87WD7RWCFZ;
+				INFOPLIST_FILE = KWImageBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kw.KWImageBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KWImageBrowser/KWImageBrowser-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A29B6EF8255D10A100195154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15497E553E4A5F798D43549A /* Pods-KWImageBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87WD7RWCFZ;
+				INFOPLIST_FILE = KWImageBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kw.KWImageBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KWImageBrowser/KWImageBrowser-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29B6EDD255D109F00195154 /* Build configuration list for PBXProject "KWImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29B6EF4255D10A100195154 /* Debug */,
+				A29B6EF5255D10A100195154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29B6EF6255D10A100195154 /* Build configuration list for PBXNativeTarget "KWImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29B6EF7255D10A100195154 /* Debug */,
+				A29B6EF8255D10A100195154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29B6EDA255D109F00195154 /* Project object */;
+}
