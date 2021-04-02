@@ -11,3 +11,4 @@
 
 #endif /* OCHeader_h */
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <YYImage/YYImageCoder.h>

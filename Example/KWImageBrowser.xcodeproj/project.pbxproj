@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A297FA492593115100BA2880 /* 32000 × 21344 36M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A297FA452593114E00BA2880 /* 32000 × 21344 36M.jpg */; };
+		A297FA4A2593115100BA2880 /* 24096 × 16096 20.2 MB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A297FA462593114F00BA2880 /* 24096 × 16096 20.2 MB.jpg */; };
+		A297FA4B2593115100BA2880 /* 18000 × 12006 9.4 MB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A297FA472593115100BA2880 /* 18000 × 12006 9.4 MB.jpg */; };
+		A297FA4C2593115100BA2880 /* 22524 × 12260 15M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A297FA482593115100BA2880 /* 22524 × 12260 15M.jpg */; };
 		A29B6EE6255D109F00195154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B6EE5255D109F00195154 /* AppDelegate.swift */; };
 		A29B6EEA255D109F00195154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B6EE9255D109F00195154 /* ViewController.swift */; };
 		A29B6EED255D109F00195154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29B6EEB255D109F00195154 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 		43134235923E0C63C27DDB55 /* Pods-KWImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWImageBrowser.debug.xcconfig"; path = "Target Support Files/Pods-KWImageBrowser/Pods-KWImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		A27F0C662564F4390021517A /* KWImageBrowser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KWImageBrowser-Bridging-Header.h"; sourceTree = "<group>"; };
 		A27F0C6B2564F4580021517A /* OCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCHeader.h; sourceTree = "<group>"; };
+		A297FA452593114E00BA2880 /* 32000 × 21344 36M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "32000 × 21344 36M.jpg"; sourceTree = "<group>"; };
+		A297FA462593114F00BA2880 /* 24096 × 16096 20.2 MB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "24096 × 16096 20.2 MB.jpg"; sourceTree = "<group>"; };
+		A297FA472593115100BA2880 /* 18000 × 12006 9.4 MB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "18000 × 12006 9.4 MB.jpg"; sourceTree = "<group>"; };
+		A297FA482593115100BA2880 /* 22524 × 12260 15M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "22524 × 12260 15M.jpg"; sourceTree = "<group>"; };
 		A29B6EE2255D109F00195154 /* KWImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29B6EE5255D109F00195154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A29B6EE9255D109F00195154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +130,10 @@
 				A29B6EEE255D10A100195154 /* Assets.xcassets */,
 				A29B6EF0255D10A100195154 /* LaunchScreen.storyboard */,
 				A29B6EF3255D10A100195154 /* Info.plist */,
+				A297FA472593115100BA2880 /* 18000 × 12006 9.4 MB.jpg */,
+				A297FA482593115100BA2880 /* 22524 × 12260 15M.jpg */,
+				A297FA462593114F00BA2880 /* 24096 × 16096 20.2 MB.jpg */,
+				A297FA452593114E00BA2880 /* 32000 × 21344 36M.jpg */,
 				A27F0C662564F4390021517A /* KWImageBrowser-Bridging-Header.h */,
 				A27F0C6B2564F4580021517A /* OCHeader.h */,
 			);
@@ -267,8 +279,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A297FA492593115100BA2880 /* 32000 × 21344 36M.jpg in Resources */,
 				A29B6EF2255D10A100195154 /* LaunchScreen.storyboard in Resources */,
+				A297FA4B2593115100BA2880 /* 18000 × 12006 9.4 MB.jpg in Resources */,
 				A29B6EEF255D10A100195154 /* Assets.xcassets in Resources */,
+				A297FA4C2593115100BA2880 /* 22524 × 12260 15M.jpg in Resources */,
+				A297FA4A2593115100BA2880 /* 24096 × 16096 20.2 MB.jpg in Resources */,
 				A2F08ED4256F84F2002CA83B /* KWImageBrowser.bundle in Resources */,
 				A29B6EED255D109F00195154 /* Main.storyboard in Resources */,
 			);

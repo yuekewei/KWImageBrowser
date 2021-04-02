@@ -8,5 +8,5 @@ pod 'SDWebImage'
 pod 'Alamofire'
 pod 'SnapKit'
 pod 'Kingfisher'
-
+pod 'YYImage'
 end

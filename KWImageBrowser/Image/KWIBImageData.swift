@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import AssetsLibrary
+import Photos
 
 enum KWIBImageLoadingStatus : Int {
     case none
@@ -62,8 +62,9 @@ class KWIBImageData: NSObject, KWIBDataProtocol {
     private var privateDelegate: KWIBImageDataDelegate?
     var delegate: KWIBImageDataDelegate? {
         set {
-            if newValue != nil {
+            if newValue != nil {                
                 self.privateDelegate = newValue
+                delegate?.kw_imageData(self, status: loadingStatus)
                 self.loadData()
             }
         }
@@ -120,7 +121,8 @@ class KWIBImageData: NSObject, KWIBDataProtocol {
         loadingStatus = .originLoading
         
         imageBrowser?.delegate?.kw_loadLargeImage?(index: page, progress: { (receivedSize, expectedSize) in
-            let p = Float(receivedSize) / Float(expectedSize);
+            let p = max(Float(receivedSize) / Float(expectedSize), 0);
+            
             DispatchQueue.main.async {               
                 self.delegate?.kw_imageDataDownloadProgress(self, progress: CGFloat(p))
             }
@@ -169,6 +171,8 @@ extension KWIBImageData {
         //                saveToPhotoAlbumCompleteWithError(error)
         //            })
         //        }
+        
+        
         
         let saveImage: ((UIImage) -> Void) = { image in
             UIImageWriteToSavedPhotosAlbum(image, self, #selector(KWIBImageData.uiImageWriteToSavedPhotosAlbum_completed(with:error:context:)), nil)
